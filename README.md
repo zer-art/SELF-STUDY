@@ -1,63 +1,35 @@
-DEEP-LEARNING
-This repository contains various deep learning models and implementations using PyTorch and TensorFlow. It includes fundamental architectures like ANN, CNN, and RNN, as well as modern techniques like BERT and quantization. The repo is designed for both learning and experimentation purposes.
+# DEEP-LEARNING
 
-📁 Project Structure
-bash
-Copy
-Edit
-DEEP-LEARNING/
-│
-├── .vscode/         # VS Code settings for project consistency
-├── ANN/             # Artificial Neural Network implementations + quantization
-├── BERT/            # BERT model notebook for NLP tasks
-├── CNN/             # CNN-based image classification + data augmentation
-├── RNN/             # Recurrent Neural Networks (e.g., LSTM, GRU)
-├── pipeline/        # Data cache and preprocessing pipeline
-├── .gitattributes   # Git metadata
-📌 Highlights
-✅ ANN: Fully connected networks with quantization support for performance optimization.
+A collection of deep learning projects covering foundational to advanced neural network architectures. This repository includes hands-on implementations of Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), BERT for NLP tasks, and model optimization through quantization.
 
-🧠 BERT: A Jupyter Notebook using the BERT architecture for NLP tasks.
+---
 
-🐾 CNN: Includes animal image classification and data augmentation techniques.
+## 📁 Folder Overview
 
-🔁 RNN: Recurrent models for sequence data.
+- `.vscode/`  
+  VS Code workspace settings for maintaining a consistent development environment.
 
-⚙️ pipeline: Utility scripts to manage data caching and transformation.
+- `ANN/`  
+  Basic ANN models with quantization techniques implemented for model size and performance improvements.
 
-🧪 Requirements
-Ensure you have the following installed:
+- `BERT/`  
+  Notebook implementation of BERT (Bidirectional Encoder Representations from Transformers) for natural language processing tasks.
 
-Python 3.8+
+- `CNN/`  
+  Image classification using CNNs along with data augmentation techniques. Includes a project on animal image classification.
 
-PyTorch / TensorFlow
+- `RNN/`  
+  Sequence modeling with RNN variants including LSTM and GRU.
 
-Jupyter Notebook
+- `pipeline/`  
+  Scripts for managing data pipelines, preprocessing steps, and caching.
 
-NumPy, pandas, matplotlib
+---
 
-Hugging Face Transformers (for BERT)
+## ⚙️ Setup Instructions
 
-To install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-(Create a requirements.txt if not already present)
-
-🚀 Getting Started
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/DEEP-LEARNING.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/DEEP-LEARNING.git
 cd DEEP-LEARNING
-Run any notebook or script of interest (e.g., BERT/BERT.ipynb or CNN/animal_classifier.py)
 
-🛠️ Contributing
-Contributions, improvements, or new model additions are welcome! Please fork the repo and create a pull request.
-
-📄 License
-This project is licensed under the MIT License.
