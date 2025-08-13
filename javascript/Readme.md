@@ -1,3 +1,24 @@
+### DOM Manipulation Example
+
+The `DOM` folder contains a simple example of manipulating the DOM using JavaScript:
+
+- **index.html**: Basic HTML file with a heading and a paragraph. Links to `style.css` and `script.js`.
+- **script.js**: Changes the content of the heading using JavaScript (`getElementById` and `innerHTML`).
+- **style.css**: (Add your styles here if needed.)
+
+#### How to Run HTML/JS Files
+
+To view the DOM example or any HTML file:
+1. Make sure you are on a system with a graphical desktop environment.
+2. Open the HTML file in your browser by double-clicking it or using your browser's "Open File" option.
+3. If you use the terminal, you can run:
+	```bash
+	xdg-open index.html
+	```
+	or manually open the file in your browser.
+
+If you encounter permission errors, check your system environment and user permissions.
+
 ## JavaScript Self-Study Workspace
 
 This repository contains various JavaScript files and practice questions designed to help you learn and master different looping constructs and basic programming concepts in JavaScript.
@@ -37,3 +58,10 @@ This repository contains various JavaScript files and practice questions designe
 ---
 
 Feel free to explore each file to understand how different loops and basic logic are implemented in JavaScript. This workspace is ideal for beginners looking to strengthen their fundamentals.
+
+---
+
+## Additional Notes
+
+- For DOM manipulation, ensure you open HTML files in a browser, not in Node.js.
+- If you face issues opening files from the terminal, try opening them directly from your file manager or browser.
